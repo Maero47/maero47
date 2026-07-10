@@ -63,6 +63,14 @@ Native macOS   Real-time streams  SwiftUI + WebKit
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Maero47&theme=github_dark" alt="Most used languages by repository" />
 </p>
 
+## Contribution trail
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Maero47/maero47/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Maero47/maero47/output/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="Animated snake moving through Mehmet Ali's GitHub contribution graph" src="https://raw.githubusercontent.com/Maero47/maero47/output/github-contribution-grid-snake.svg" />
+</picture>
+
 ## Let's make something useful
 
 I'm interested in AI-native products, macOS software, financial technology, and ideas that deserve a polished prototype.
