@@ -1,0 +1,73 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mehmet Ali — Product-minded developer</title>
+  <desc id="desc">A midnight banner with interface, market, and artificial intelligence motifs.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="1160" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B17"/>
+      <stop offset="0.55" stop-color="#10152B"/>
+      <stop offset="1" stop-color="#071A1D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="228" y1="0" x2="690" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="0.52" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="820" y1="214" x2="1122" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(940 155) rotate(90) scale(180 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="23" stroke="#94A3B8" stroke-opacity="0.17"/>
+  <ellipse cx="940" cy="155" rx="260" ry="180" fill="url(#glow)"/>
+
+  <g opacity="0.8">
+    <circle cx="64" cy="54" r="5" fill="#F43F5E"/>
+    <circle cx="82" cy="54" r="5" fill="#FBBF24"/>
+    <circle cx="100" cy="54" r="5" fill="#2DD4BF"/>
+    <path d="M128 54H246" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 7"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="765" y="56" width="364" height="210" rx="18" fill="#0B1020" stroke="#334155"/>
+    <rect x="785" y="76" width="324" height="34" rx="9" fill="#111A30"/>
+    <circle cx="805" cy="93" r="4" fill="#F43F5E"/>
+    <rect x="819" y="88" width="104" height="10" rx="5" fill="#334155"/>
+    <rect x="1052" y="86" width="37" height="14" rx="7" fill="#2DD4BF" fill-opacity="0.18"/>
+    <path d="M791 228C830 215 844 228 876 198C906 170 928 202 953 167C978 132 1012 163 1036 126C1057 95 1075 126 1102 116" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M791 228C830 215 844 228 876 198C906 170 928 202 953 167C978 132 1012 163 1036 126C1057 95 1075 126 1102 116V245H791V228Z" fill="url(#chart)" fill-opacity="0.18"/>
+    <circle cx="1036" cy="126" r="7" fill="#0B1020" stroke="#2DD4BF" stroke-width="3"/>
+  </g>
+
+  <g>
+    <rect x="96" y="90" width="102" height="28" rx="14" fill="#2DD4BF" fill-opacity="0.12" stroke="#2DD4BF" stroke-opacity="0.34"/>
+    <circle cx="115" cy="104" r="4" fill="#2DD4BF"/>
+    <text x="129" y="109" fill="#99F6E4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">BUILDING</text>
+  </g>
+
+  <text x="96" y="178" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="64" font-weight="800" letter-spacing="-2">MEHMET ALI</text>
+  <rect x="96" y="194" width="572" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="96" y="236" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21" font-weight="500">AI · REAL-TIME DATA · NATIVE EXPERIENCES</text>
+  <text x="96" y="268" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">idea → interface → working product</text>
+
+  <g opacity="0.88">
+    <path d="M713 92L726 79L739 92L726 105L713 92Z" fill="#A78BFA"/>
+    <path d="M698 144C708 133 724 133 734 144C724 155 708 155 698 144Z" stroke="#60A5FA" stroke-width="2"/>
+    <circle cx="716" cy="144" r="4" fill="#60A5FA"/>
+    <path d="M714 210C714 201 721 194 730 194C739 194 746 201 746 210C746 225 730 235 730 235C730 235 714 225 714 210Z" stroke="#F43F5E" stroke-width="2"/>
+    <circle cx="730" cy="210" r="5" fill="#F43F5E"/>
+  </g>
+</svg>
