@@ -80,10 +80,10 @@ comprehensions, type classes, algebraic data types, trees and proof by induction
 finishing on monads. Each topic is a written explanation, nearly all of them with a
 companion `.hs` file you can load straight into GHCi and exercises in three tiers — basic,
 intermediate, advanced — so you can stop where your confidence does. The last folder is
-exam preparation: worked solutions to a mock paper, and the five mistakes I kept making
-set out as the wrong version beside the right one. It is notes, not a library — the point
-was that nobody should have to meet `foldr` and inductive proof in a second language at
-the same time.
+a revision note: a checklist of what to have cold before the exam, and the five mistakes I
+kept making set out as the wrong version beside the right one. It is notes, not a library
+— the point was that nobody should have to meet `foldr` and inductive proof in a second
+language at the same time.
 
 `Haskell` · `GHCi` · `Markdown`
 
