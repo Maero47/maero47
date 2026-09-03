@@ -90,6 +90,17 @@ language at the same time.
 ## Tools
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {
+  "git0": "#7C3AED", "gitBranchLabel0": "#F8FAFC",
+  "cScale0": "#7C3AED", "cScaleLabel0": "#F8FAFC", "cScaleInv0": "#F8FAFC",
+  "cScale1": "#2DD4BF", "cScaleLabel1": "#070B17", "cScaleInv1": "#070B17",
+  "cScale2": "#60A5FA", "cScaleLabel2": "#070B17", "cScaleInv2": "#070B17",
+  "cScale3": "#A78BFA", "cScaleLabel3": "#070B17", "cScaleInv3": "#070B17",
+  "cScale4": "#F43F5E", "cScaleLabel4": "#070B17", "cScaleInv4": "#070B17",
+  "cScale5": "#94A3B8", "cScaleLabel5": "#070B17", "cScaleInv5": "#070B17",
+  "cScale6": "#0E7490", "cScaleLabel6": "#F8FAFC", "cScaleInv6": "#F8FAFC",
+  "cScale7": "#64748B", "cScaleLabel7": "#F8FAFC", "cScaleInv7": "#F8FAFC"
+}}}%%
 mindmap
   root((🧭 Mehmet Ali — stack))
     ((🧩 Languages))
