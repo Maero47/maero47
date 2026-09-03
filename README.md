@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.png" width="100%" alt="Header banner: Mehmet Ali, computer science student building AI-driven products" />
+  <img src="assets/profile-header.gif" width="100%" alt="Header banner: Mehmet Ali, computer science student building AI-driven products" />
 </p>
 
 <p align="center">
@@ -89,9 +89,65 @@ language at the same time.
 
 ## Tools
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,python,fastapi,supabase,swift,git,github&perline=10" alt="TypeScript, Next.js, React, Tailwind CSS, Python, FastAPI, Supabase, Swift, Git and GitHub" />
-</p>
+```mermaid
+mindmap
+  root((🧭 Mehmet Ali — stack))
+    ((🧩 Languages))
+      TypeScript
+      Python
+      Swift
+      Haskell
+      SQL and PLpgSQL
+    ((🎨 Frontend))
+      Next.js App Router
+      React
+      Tailwind CSS
+      Zustand
+      SWR
+      Recharts
+      Installable PWA
+    ((⚙️ Backend and data))
+      FastAPI
+      Uvicorn
+      Pydantic
+      SQLAlchemy
+      asyncpg
+      PostgreSQL
+      Supabase
+    ((🤖 AI and ML))
+      LangChain
+      OpenAI
+      Anthropic
+      Groq
+      Gemini
+      XGBoost
+      Prophet
+      pandas
+      NumPy
+    ((🍎 Apple platform))
+      SwiftUI
+      WKWebView
+      AppKit
+      Core Data
+      Foundation Models
+      Qwen on MLX
+      Signing and notarization
+    ((🔌 APIs and real time))
+      Binance WebSocket
+      Finnhub WebSocket
+      MCP over streamable HTTP
+      RapidAPI Sky-Scrapper
+      Travelpayouts
+      yfinance
+      ccxt
+      httpx
+    ((🛠️ Tooling))
+      Git
+      GitHub Actions
+      Docker
+      ESLint
+      GHCi
+```
 
 ## Contributions
 
