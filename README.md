@@ -11,10 +11,11 @@ Computer Science student at the University of Birmingham. I work on the seam whe
 language model meets live data and an interface someone actually has to use — the part
 that demos easily and is hard to make trustworthy.
 
-Four projects below, all of them things I built end to end: a market-analysis platform,
-a macOS browser that Claude Code can drive, an AI reception desk, and a cooking app
-that refuses to take itself seriously. I would rather finish one thing you can open than
-start five you can only read about.
+Four projects below, all of them mine end to end: a market-analysis platform, a macOS
+browser that Claude Code can drive, a flight search you can run before you have a single
+API key, and a set of Haskell notes written in Turkish for people taking the module in
+English. I would rather finish one thing you can open than start five you can only read
+about.
 
 ## Projects
 
@@ -49,24 +50,42 @@ called Pearl, who lives on your pages and doubles as the offline-page game.
 
 `Swift` · `SwiftUI` · `WebKit` · `AppKit` · `MCP`
 
-### [AI Receptionist](https://github.com/Maero47/AI-recepcionist)
+### [Rotam](https://github.com/Maero47/Rotam)
 
-<a href="https://github.com/Maero47/AI-recepcionist"><img src="assets/cards/ai-receptionist.png" width="100%" alt="AI Receptionist — AI reception and lead-capture platform" /></a>
+<a href="https://github.com/Maero47/Rotam"><img src="assets/cards/rotam.png" width="100%" alt="Rotam — flight search that runs on built-in data with no API key" /></a>
 
-An AI front desk for small businesses: it answers from a knowledge base you control,
-handles FAQs and services, takes chat and voice through webhooks, sends notifications,
-and hands the owner a dashboard for everything it captured.
+A flight search you can clone and run before you have a single API key. Two live sources
+sit behind one facade — Sky-Scrapper for search, autocomplete, results and detail,
+Travelpayouts for the price calendar and popular destinations — and every `/api` route
+falls back to a built-in dataset when the key is missing, the quota is spent or the
+upstream is slow, then tags the response `live` or `mock` so the page can admit which one
+you are looking at. Either way you get the whole product: a two-month calendar with the
+cheapest fare on each day, best/cheapest/fastest sorting with stop and price filters that
+write themselves into the URL, a detail page comparing the sellers of one flight, and
+starred flights, watched routes and recent searches in `localStorage` — no account, no
+database. Colour, spacing and radius all come from one block of Tailwind tokens; the
+palette is anthracite and red in the register of a Turkish carrier, and every airline in
+it is invented.
 
-`Next.js` · `TypeScript` · `Supabase`
+`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `RapidAPI`
 
-### [Chaos Kitchen](https://github.com/Maero47/Chaos-Kitchen)
+### [Haskell FP Notes (Turkish)](https://github.com/Maero47/haskell-fp-turkce-notlar)
 
-<a href="https://github.com/Maero47/Chaos-Kitchen"><img src="assets/cards/chaos-kitchen.png" width="100%" alt="Chaos Kitchen — a playful AI cooking experience" /></a>
+<a href="https://github.com/Maero47/haskell-fp-turkce-notlar"><img src="assets/cards/fp-notlar.png" width="100%" alt="Haskell FP Notes — a Turkish study guide to functional programming" /></a>
 
-Cooking with the recipe fighting back. It swaps your ingredients, walks you through
-what to do about it, and narrates the whole thing out loud with generated speech.
+The one thing here that teaches rather than ships. I took functional programming in
+English and wrote the module back out in Turkish while I was sitting it: eleven topics
+running from types and polymorphism through recursion, higher-order functions, list
+comprehensions, type classes, algebraic data types, trees and proof by induction, and
+finishing on monads. Each topic is a written explanation, nearly all of them with a
+companion `.hs` file you can load straight into GHCi and exercises in three tiers — basic,
+intermediate, advanced — so you can stop where your confidence does. The last folder is
+exam preparation: worked solutions to a mock paper, and the five mistakes I kept making
+set out as the wrong version beside the right one. It is notes, not a library — the point
+was that nobody should have to meet `foldr` and inductive proof in a second language at
+the same time.
 
-`Next.js` · `Groq` · `Tailwind CSS` · `Text to Speech`
+`Haskell` · `GHCi` · `Markdown`
 
 ## Tools
 
