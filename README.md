@@ -107,8 +107,13 @@ mindmap
       TypeScript
       Python
       Swift
-      Haskell
       SQL and PLpgSQL
+      JavaScript
+      Bash
+      Haskell
+      C
+      C#
+      Java
     ((🎨 Frontend))
       Next.js App Router
       React
