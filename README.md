@@ -20,7 +20,7 @@ start five you can only read about.
 
 ### [StockMind](https://github.com/Maero47/Stockmind)
 
-[![StockMind — AI-supported stock and crypto analysis](assets/cards/stockmind.png)](https://github.com/Maero47/Stockmind)
+<a href="https://github.com/Maero47/Stockmind"><img src="assets/cards/stockmind.png" width="100%" alt="StockMind — AI-supported stock and crypto analysis" /></a>
 
 Stock and crypto analysis that runs on your own API key: the AI chat streams its
 analysis through whichever of Groq, OpenAI, Anthropic or Gemini you bring, and the key
@@ -35,7 +35,7 @@ Supabase, and the whole thing installs as a PWA.
 
 ### [Cherry Browser](https://github.com/Maero47/Cherry-Internet-Browser)
 
-[![Cherry Browser — a macOS browser with an on-device model and an MCP server](assets/cards/cherry-browser.png)](https://github.com/Maero47/Cherry-Internet-Browser)
+<a href="https://github.com/Maero47/Cherry-Internet-Browser"><img src="assets/cards/cherry-browser.png" width="100%" alt="Cherry Browser — a macOS browser with an on-device model and an MCP server" /></a>
 
 A Mac browser with an MCP server inside it: switch it on and Cherry serves nine tools on
 `127.0.0.1` behind a bearer token, so Claude Code or Codex can list your tabs, read the
@@ -51,7 +51,7 @@ called Pearl, who lives on your pages and doubles as the offline-page game.
 
 ### [AI Receptionist](https://github.com/Maero47/AI-recepcionist)
 
-[![AI Receptionist — AI reception and lead-capture platform](assets/cards/ai-receptionist.png)](https://github.com/Maero47/AI-recepcionist)
+<a href="https://github.com/Maero47/AI-recepcionist"><img src="assets/cards/ai-receptionist.png" width="100%" alt="AI Receptionist — AI reception and lead-capture platform" /></a>
 
 An AI front desk for small businesses: it answers from a knowledge base you control,
 handles FAQs and services, takes chat and voice through webhooks, sends notifications,
@@ -61,7 +61,7 @@ and hands the owner a dashboard for everything it captured.
 
 ### [Chaos Kitchen](https://github.com/Maero47/Chaos-Kitchen)
 
-[![Chaos Kitchen — a playful AI cooking experience](assets/cards/chaos-kitchen.png)](https://github.com/Maero47/Chaos-Kitchen)
+<a href="https://github.com/Maero47/Chaos-Kitchen"><img src="assets/cards/chaos-kitchen.png" width="100%" alt="Chaos Kitchen — a playful AI cooking experience" /></a>
 
 Cooking with the recipe fighting back. It swaps your ingredients, walks you through
 what to do about it, and narrates the whole thing out loud with generated speech.
