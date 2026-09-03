@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.png" width="100%" alt="Header banner: Mehmet Ali, computer science student building AI-driven products" />
+  <img src="assets/profile-header.gif" width="100%" alt="Header banner: Mehmet Ali, computer science student building AI-driven products" />
 </p>
 
 <p align="center">
@@ -89,9 +89,76 @@ language at the same time.
 
 ## Tools
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,python,fastapi,supabase,swift,git,github&perline=10" alt="TypeScript, Next.js, React, Tailwind CSS, Python, FastAPI, Supabase, Swift, Git and GitHub" />
-</p>
+```mermaid
+%%{init: {"theme": "base", "themeVariables": {
+  "git0": "#7C3AED", "gitBranchLabel0": "#F8FAFC",
+  "cScale0": "#7C3AED", "cScaleLabel0": "#F8FAFC", "cScaleInv0": "#F8FAFC",
+  "cScale1": "#2DD4BF", "cScaleLabel1": "#070B17", "cScaleInv1": "#070B17",
+  "cScale2": "#60A5FA", "cScaleLabel2": "#070B17", "cScaleInv2": "#070B17",
+  "cScale3": "#A78BFA", "cScaleLabel3": "#070B17", "cScaleInv3": "#070B17",
+  "cScale4": "#F43F5E", "cScaleLabel4": "#070B17", "cScaleInv4": "#070B17",
+  "cScale5": "#94A3B8", "cScaleLabel5": "#070B17", "cScaleInv5": "#070B17",
+  "cScale6": "#0E7490", "cScaleLabel6": "#F8FAFC", "cScaleInv6": "#F8FAFC",
+  "cScale7": "#64748B", "cScaleLabel7": "#F8FAFC", "cScaleInv7": "#F8FAFC"
+}}}%%
+mindmap
+  root((🧭 Mehmet Ali — stack))
+    ((🧩 Languages))
+      TypeScript
+      Python
+      Swift
+      Haskell
+      SQL and PLpgSQL
+    ((🎨 Frontend))
+      Next.js App Router
+      React
+      Tailwind CSS
+      Zustand
+      SWR
+      Recharts
+      Installable PWA
+    ((⚙️ Backend and data))
+      FastAPI
+      Uvicorn
+      Pydantic
+      SQLAlchemy
+      asyncpg
+      PostgreSQL
+      Supabase
+    ((🤖 AI and ML))
+      LangChain
+      OpenAI
+      Anthropic
+      Groq
+      Gemini
+      XGBoost
+      Prophet
+      pandas
+      NumPy
+    ((🍎 Apple platform))
+      SwiftUI
+      WKWebView
+      AppKit
+      Core Data
+      Foundation Models
+      Qwen on MLX
+      Signing and notarization
+    ((🔌 APIs and real time))
+      Binance WebSocket
+      Finnhub WebSocket
+      MCP over streamable HTTP
+      RapidAPI Sky-Scrapper
+      Travelpayouts
+      yfinance
+      ccxt
+      httpx
+    ((🛠️ Tooling))
+      Git
+      GitHub Actions
+      Docker
+      ESLint
+      GHCi
+```
 
 ## Contributions
 
